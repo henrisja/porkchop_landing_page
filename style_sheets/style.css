@@ -1,7 +1,8 @@
 body {
     background-image: url("../images/porkchop_logo.png");
     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-size: cover;
-     background-color: white;
+    background-attachment: fixed;
+    background-size: contain;
+    background-color: white;
+    background-position: center;
   }
