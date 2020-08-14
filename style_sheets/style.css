@@ -1,8 +1,31 @@
 body {
-    background-image: url("../images/porkchop_logo.png");
+    background-image: url("../images/porkchop_logo_2.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
     background-color: white;
     background-position: center;
-  }
+}
+
+.pork_button {
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 20px;
+    border: 4px solid #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+}
+
+.pork_button:hover {
+    color: #ffffff !important;
+    background: #f63bb8;
+    border-color: #f63bb8 !important;
+    transition: all 0.4s ease 0s;
+}
+
+.button_cont {
+    position: relative;
+    
+}
